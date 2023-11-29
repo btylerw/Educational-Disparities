@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    transition: color 2s ease-in;
+}
