@@ -82,7 +82,6 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
     height: 97vh;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
@@ -97,13 +96,30 @@ a {
 }
 
 .info-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 48px;
 }
 
 .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 24px;
+    height: 30vh;
+    -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 10s; /* Firefox < 16 */
+     -ms-animation: fadein 10s; /* Internet Explorer */
+      -o-animation: fadein 10s; /* Opera < 12.1 */
+         animation: fadein 10s;
+}
+
+.info-container {
+    height: 30vh;
 }
 
 .hidden {
     display: none;
+    height: 30vh;
 }
