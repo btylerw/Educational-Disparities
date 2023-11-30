@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
+    <script src="./script.js"></script>
     <title>Educational Disparities</title>
 </head>
 <body>
-    <div class="test">
-        This is a test
+    <div class="container">
+        <div class="sidebar">
+            <a href="#home" onclick="load('home')">What is it?</a>
+            <a href="#bad" onclick="load('bad')">Why is it bad?</a>
+            <a href="#hurt" onclick="load('hurt')">Who gets hurt?</a>
+            <a href="#proof" onclick="load('proof')">What's the proof?</a>
+        </div>
+        <div class="content">
+            <div id="home" class="hidden">
+                This is a test
+            </div>
+            <div id="bad" class="hidden">
+                This is a test2
+            </div>
+            <div id="hurt" class="hidden">
+                This is a test3
+            </div>
+            <div id="proof" class="hidden">
+                This is a test4
+            </div>
+        </div>
     </div>
 </body>
 </html>
