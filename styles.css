@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(36, 32, 32);
     height: 100vh;
 }
 
@@ -99,15 +99,17 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 48px;
+    font-size: 72px;
 }
 
 .info {
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 24px;
+    align-items: start;
+    flex-direction: column;
+    font-size: 36px;
     height: 30vh;
+    gap: 10px;
     -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 10s; /* Firefox < 16 */
      -ms-animation: fadein 10s; /* Internet Explorer */
@@ -115,6 +117,13 @@ a {
          animation: fadein 10s;
 }
 
+.smaller {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .info-container {
     height: 30vh;
 }
@@ -122,4 +131,23 @@ a {
 .hidden {
     display: none;
     height: 30vh;
+}
+
+.centered {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigger {
+    font-size: 72px;
+}
+.left-aligned {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }

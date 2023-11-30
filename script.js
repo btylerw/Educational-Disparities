@@ -1,7 +1,7 @@
 function load(id) {
     // Hide everything except for linked element
-    ids = ['home', 'what', 'bad', 'hurt', 'proof', 'action'];
-    for (let i = 0; i < 6; i++) {
+    ids = ['home', 'what', 'bad', 'hurt', 'action'];
+    for (let i = 0; i < 5; i++) {
         if (ids[i] != id) {
             const hide = document.getElementById(ids[i]);
             const hideinfo = document.getElementById(ids[i]+"info");
