@@ -83,6 +83,7 @@ a {
     align-items: center;
     flex-direction: column;
     height: 97vh;
+    gap: 30px;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
      -ms-animation: fadein 4s; /* Internet Explorer */
